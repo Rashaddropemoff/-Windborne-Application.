@@ -1,0 +1,23 @@
+name: Submit WindBorne Application
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/submit-windborne.yml'
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Submit application
+        shell: bash
+        run: |
+          response=$(curl -sS -w '\n%{http_code}' -X POST 'https://windbornesystems.com/career_applications.json' \
+            -H 'Content-Type: application/json' \
+            --data '{"career_application":{"name":"Mohamed Rashad","email":"Ososlanshon@gmail.com","role":"Mission Operations Specialist","notes":"Excited about the opportunity to bring my UAV flight testing, Autopilot testing, and robotics operations experience to WindBorne mission operations.","submission_url":"https://github.com/Rashaddropemoff/-Windborne-Application.","resume_url":"https://raw.githubusercontent.com/Rashaddropemoff/-Windborne-Application./main/Mohamed_Rashad_Resume.pdf"}}')
+          body=$(echo "$response" | sed '$d')
+          code=$(echo "$response" | tail -n1)
+          echo "HTTP status: $code"
+          echo "Response body: $body"
+          test "$code" = "200"
