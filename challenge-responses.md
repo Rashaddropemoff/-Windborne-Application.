@@ -1,28 +1,28 @@
-# WindBorne Application Challenge
+# WindBorne Systems — Forward Deployed Operator Application Challenge
 
-**Mohamed Rashad**  
-**Role:** Mission Operations Specialist
+**Applicant:** Mohamed Rashad  
+**Role:** Forward Deployed Operator  
+**Contact:** ososlanshon@gmail.com
 
-## 1) How I’d approach Semantle
+## 1. How to play Semantle: a beginner-friendly strategy
 
-I’d treat Semantle like a search problem more than a vocabulary game.
+Semantle is a daily word-guessing game, but unlike Wordle, you aren't looking for matching letters. You're trying to find a secret word by **meaning**. You type a word, submit it, and the game tells you how semantically close your guess is to the answer. A higher similarity score means you're likely moving in a useful direction, although words can be related by context rather than being direct synonyms.
 
-I’d start with a handful of very different words just to get a sense of the direction — things like a person, place, object, action, emotion, nature, technology, etc. Once one guess scores noticeably better than the others, I’d stop guessing randomly and start exploring around that idea.
+Here is how I'd approach it if I'd never played before:
 
-From there I’d try words that are related in different ways: synonyms, things that usually appear together, actions connected to the idea, places, adjectives, and different parts of speech. I’d pay more attention to what each guess tells me than whether the word itself feels “close.” If I’m getting warmer, I keep narrowing. If the scores flatten out, I back up and test a different branch.
+1. **Start with broad categories.** Guess several unrelated, common words, such as *person, city, food, water, work,* and *music*. Don't worry about getting a correct answer yet. You're collecting clues about the general subject.
+2. **Follow the strongest clue.** If *water* gets a noticeably stronger similarity score than your other guesses, explore that area: *ocean, rain, river, drink,* or *swim*. Compare each result rather than relying on one guess.
+3. **Think beyond synonyms.** A secret word might be connected to your guess by an activity, place, object, or common association. If *hospital* scores well, try *doctor, patient, nurse, medicine,* or *care*, not just other names for a hospital.
+4. **Keep track of what works.** Use your highest-scoring guesses as checkpoints. Test one idea at a time so you can tell whether you're getting closer or drifting away.
+5. **Change direction when you're stuck.** If several related guesses stop improving, zoom out. Try a different part of speech or a neighboring topic. Don't keep repeating slightly different versions of a weak idea.
+6. **Use hints without guilt.** Hints are a useful way to learn how Semantle's similarity feedback works. The goal is to uncover the connection, not to spend hours guessing.
 
-What makes it fun to me is that the best guess is not always the most obvious synonym. Sometimes the connection is more about context than definition, so I’d keep testing hypotheses instead of locking onto one interpretation too early.
+In short: **start broad, identify a signal, test a hypothesis, and adjust based on feedback.** That's what makes Semantle interesting to me: progress comes from staying curious and responding to new information, not from stubbornly sticking to your first theory.
 
-Basically: start broad, find a signal, follow it, and keep adjusting based on the feedback.
+## 2. A topic that genuinely makes me happy
 
-## 2) Something I genuinely enjoy
+I love aviation and autonomous systems, especially seeing technology move from a controlled test environment into the real world. I'm an FAA Part 107 certified remote pilot, and I've worked around UAV operations, autonomous-vehicle testing, and humanoid robotics deployments. What draws me in is the combination of technical systems, field conditions, and practical problem-solving.
 
-I’m really into autonomous systems and aviation — especially the part where technology has to leave a controlled environment and actually work in the real world.
+My favorite part is working through a situation that isn't going exactly to plan: identifying what changed, troubleshooting methodically, keeping the operation safe, and communicating useful observations to engineers. I enjoy turning unpredictable field experiences into clear information that helps the next operation run better.
 
-That interest became a lot more real for me through work. I’ve been around UAV flight testing, Autopilot testing, and now humanoid robotics deployments, and the part I enjoy most is usually what happens when something doesn’t go exactly according to plan.
-
-I like figuring out what changed, what the system is doing, what needs to happen next, and how to communicate it clearly enough that the next run is better. There’s something satisfying about taking a messy real-world situation and turning it into something useful for the technical team.
-
-Outside of the job itself, I can spend way too much time reading about drones, robotics, aircraft, sensors, and new ways people are collecting data from the physical world. That’s one of the reasons WindBorne stood out to me. Autonomous balloons operating across huge distances in an environment you can’t control is just a really interesting operations problem.
-
-It’s the combination of hardware, software, weather, logistics, and judgment that makes it interesting to me.
+Even outside work, I find myself reading about aircraft, robotics, sensors, and how machines collect data from the physical world. That's why WindBorne's autonomous weather balloons are so exciting to me. Operating real hardware across huge distances, while responding to changing weather and logistical constraints, is exactly the kind of challenge I find rewarding.
